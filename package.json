@@ -1,0 +1,12 @@
+{
+  "name": "cMango",
+  "version": "1.0.0",
+  "main": "main.js",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^26.2.1"
+  },
+  "scripts": {
+    "start": "electron ."
+  }
+}
