@@ -19,6 +19,7 @@ const createWindow = () => {
 
   // Open the DevTools.
   // mainWindow.webContents.openDevTools()
+  mainWindow.ELECTRON_DISABLE_SECURITY_WARNINGS = true;
 }
 
 // This method will be called when Electron has finished
